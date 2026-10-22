@@ -17,14 +17,8 @@ export const Navbar: React.FC = () => {
     <header className="sticky top-0 z-40 bg-white border-b border-slate-200/80 shadow-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
         
-        {/* Brand Logo - Typography */}
-        <div className="flex items-center gap-2.5 cursor-pointer select-none">
-          <div className="w-8 h-8 rounded-lg bg-slate-100 border border-slate-200/80 shadow-2xs flex items-center justify-center p-1">
-            <svg viewBox="0 0 64 64" className="w-full h-full">
-              <path d="M 31 15 L 19 15 C 12.92 15 8 19.92 8 26 L 8 38 C 8 44.08 12.92 49 19 49 L 31 49 L 31 41 L 20 41 C 17.79 41 16 39.21 16 37 L 16 27 C 16 24.79 17.79 23 20 23 L 31 23 Z" fill="#0F172A"/>
-              <path d="M 35 15 L 43 15 L 43 28 L 49 28 L 49 15 L 57 15 L 57 49 L 49 49 L 49 36 L 43 36 L 43 49 L 35 49 Z" fill="#F59E0B"/>
-            </svg>
-          </div>
+        {/* Brand Logo - Pure Typography */}
+        <div className="flex items-center cursor-pointer select-none">
           <span className="font-black text-2xl tracking-tight text-slate-900">
             Campus<span className="text-amber-500">Hive</span>
           </span>
